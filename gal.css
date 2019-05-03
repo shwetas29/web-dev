@@ -1,0 +1,78 @@
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  padding-top: 5%;
+  text-align: center;
+  color: darkblue;
+}
+
+.fixit{ padding: 45px; }
+
+.fixit
+{ 
+  margin: 0; }
+
+.fixit .item img { width: 100%; height: 50%; margin-bottom: 10px; }
+
+.container img
+{
+  padding: 25px;
+  width: 230px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.container img:hover
+{
+  filter: grayscale(0%);
+  transform: scale(1.5);
+}
+
+.carousel-item img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.carousel-control-next-icon
+{
+  height: 40px;
+  width: 40px;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.carousel-control-prev-icon
+{
+  height: 40px;
+  width: 40px;
+  padding-left: 50%;
+  padding-right: 50%;
+  
+}
+
+.fixit #thumbcarousel 
+{ margin: 12px 0 0;  }
+
+.fixit #thumbcarousel .item 
+{ text-align: center; }
+
+.fixit #thumbcarousel .item .thumb 
+{  
+  width: 100%;
+  padding: 5px;  
+  cursor: pointer; 
+}
+
+h2{
+  font-family: sans-serif;
+}
+
+#frame{
+  padding-left: 40%;
+}
+
